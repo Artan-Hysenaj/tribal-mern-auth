@@ -1,2 +1,3 @@
-https://youtu.be/R4AhvYORZRY?list=TLPQMDYwMzIwMjQ9IkBToVggVg&t=841
+https://youtu.be/R4AhvYORZRY?t=4002
+
 # tribal-mern-auto
