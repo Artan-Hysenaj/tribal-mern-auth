@@ -6,7 +6,6 @@ import { Fragment } from "react/jsx-runtime";
 import { useLogoutMutation } from "../slices/usersApiSlice";
 import { logout } from "../slices/authSlice";
 import { useNavigate } from "react-router-dom";
-import Loader from "./Loader";
 
 function Header(): JSX.Element {
   const navigate = useNavigate();
@@ -28,10 +27,7 @@ function Header(): JSX.Element {
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>
-              MERN Auth
-              <Loader />
-            </Navbar.Brand>
+            <Navbar.Brand>MERN Auth</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
